@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .scrollbar-thin::-webkit-scrollbar-thumb{
+        @apply bg-[#06202a];
+       border-radius:100vh;
+      
+       
+    }
+    .scrollbar-thin::-webkit-scrollbar-button{
+        min-height:11rem;
+    }
+    .scrollbar-thin::-webkit-scrollbar-track{
+        @apply bg-[#a7dbf0];
+        min-height:1rem;
+    }
+    .table_list{
+        @apply bg-[#0d3341];
+    }
+}
